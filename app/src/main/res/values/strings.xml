@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Proje_2</string>
+    <string name="common_man">Erkek</string>
+    <string name="common_woman">Kadın</string>
+    <string name="common_notWorking">Çalışmıyor</string>
+    <string name="common_working">Çalışıyor</string>
+    <string name="activity_edit_screen_personInformation">Kişi Bilgileri</string>
+    <string name="activity_edit_screen_fullName">İsim Soyisim:</string>
+    <string name="activity_edit_screen_gender">Cinsiyet:</string>
+    <string name="activity_edit_screen_workingStatus">Çalışma Durumu:</string>
+    <string name="activity_edit_screen_removePerson_button">Kişiyi Sil</string>
+    <string name="activity_splash_screen_welcome">HOŞGELDİNİZ</string>
+</resources>
