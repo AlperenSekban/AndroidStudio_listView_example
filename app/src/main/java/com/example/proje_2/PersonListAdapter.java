@@ -53,15 +53,7 @@ public class PersonListAdapter extends BaseAdapter {
             @Override
             public void onClick(View view) {
                 ImageView workingStatus= layout.findViewById(R.id.listView_person_workingStatus_imageView);
-                if(workingStatus.getDrawable().getConstantState().equals(layout.getResources().getDrawable(R.drawable.ic_action_calisiyor).getConstantState())){
-                    workingStatus.setImageResource(R.drawable.ic_action_calismiyor);
-                    list.get(i).setWorkingstatus(R.drawable.ic_action_calismiyor);
-                }
-                else if(workingStatus.getDrawable().getConstantState().equals(layout.getResources().getDrawable(R.drawable.ic_action_calismiyor).getConstantState())) {
-                    workingStatus.setImageResource(R.drawable.ic_action_calisiyor);
-                    list.get(i).setWorkingstatus(R.drawable.ic_action_calisiyor);
 
-                }
             }
 
         });

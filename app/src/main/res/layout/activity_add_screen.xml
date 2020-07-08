@@ -18,7 +18,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="İsim Soyisim:"
+            android:text="@string/activity_edit_screen_fullName"
             android:gravity="right"
             android:layout_marginRight="20dp"
             android:textStyle="bold">
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/person"
             android:layout_marginRight="30dp"
-            android:hint="İsim Giriniz..">
+            android:hint="@string/activity_add_screen_hint_person_editText">
 
         </EditText>
 
@@ -49,7 +49,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Cinsiyet:"
+            android:text="@string/activity_edit_screen_gender"
             android:gravity="right"
             android:layout_marginRight="20dp"
             android:textStyle="bold"
@@ -67,7 +67,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/man"
-                android:text="Erkek"
+                android:text="@string/common_man"
                 android:layout_marginRight="20dp">
 
             </RadioButton>
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/woman"
-                android:text="Kadın">
+                android:text="@string/common_woman">
 
             </RadioButton>
 
@@ -96,7 +96,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Çalışma Durumu::"
+            android:text="@string/activity_edit_screen_workingStatus"
             android:gravity="right"
             android:layout_marginRight="20dp"
             android:textStyle="bold"
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/calisiyor"
-                android:text="Çalışıyor"
+                android:text="@string/common_working"
                 android:layout_marginRight="20dp">
 
             </RadioButton>
@@ -122,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/calismiyor"
-                android:text="Çalışmıyor">
+                android:text="@string/common_notWorking">
 
             </RadioButton>
 
@@ -135,7 +135,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Kaydet"
+        android:text="@string/activity_add_screen_button_save"
         android:id="@+id/addBtn">
 
     </Button>
