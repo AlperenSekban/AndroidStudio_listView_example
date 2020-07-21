@@ -3,10 +3,8 @@ package com.example.proje_2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
-import android.content.ContentProviderClient;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,6 +24,12 @@ public class AddScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_screen);
         defination();
+        addButtonClick();
+
+
+    }
+
+    private void addButtonClick() {
         addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,22 +55,20 @@ public class AddScreen extends AppCompatActivity {
 
             }
         });
-
-
     }
 
-    public void defination() {
-        person = findViewById(R.id.person);
-        man = findViewById(R.id.man);
-        woman = findViewById(R.id.woman);
-        calisiyor = findViewById(R.id.calisiyor);
-        calismiyor = findViewById(R.id.calismiyor);
-        addBtn = findViewById(R.id.addBtn);
-        rGGender = findViewById(R.id.rGGender);
-        rGworkingStatus = findViewById(R.id.rGworkingStatus);
+    private void defination() {
+        person = findViewById(R.id.activitiy_add_screen_person_editText);
+        man = findViewById(R.id.activity_add_screen_man_radioButton);
+        woman = findViewById(R.id.activity_add_screen_woman_radioButton);
+        calisiyor = findViewById(R.id.activity_add_screen_calisiyor_radioButton);
+        calismiyor = findViewById(R.id.activity_add_screen_calismiyor_radioButton);
+        addBtn = findViewById(R.id.activity_add_screen_addButton);
+        rGGender = findViewById(R.id.activity_add_screeen_gender_radioGroup);
+        rGworkingStatus = findViewById(R.id.activity_add_screen_workingStatus_radioGroup);
     }
 
-    public boolean isSelected(RadioGroup radioGroup) {
+    private boolean isSelected(RadioGroup radioGroup) {
         if (radioGroup.getCheckedRadioButtonId() == -1) {
             return false;
         } else {

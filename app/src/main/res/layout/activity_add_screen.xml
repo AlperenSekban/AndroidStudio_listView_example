@@ -29,7 +29,7 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:id="@+id/person"
+            android:id="@+id/activitiy_add_screen_person_editText"
             android:layout_marginRight="30dp"
             android:hint="@string/activity_add_screen_hint_person_editText">
 
@@ -61,12 +61,12 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:id="@+id/rGGender"
+            android:id="@+id/activity_add_screeen_gender_radioGroup"
             android:orientation="horizontal">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/man"
+                android:id="@+id/activity_add_screen_man_radioButton"
                 android:text="@string/common_man"
                 android:layout_marginRight="20dp">
 
@@ -74,7 +74,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/woman"
+                android:id="@+id/activity_add_screen_woman_radioButton"
                 android:text="@string/common_woman">
 
             </RadioButton>
@@ -108,12 +108,12 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="wrap_content"
-            android:id="@+id/rGworkingStatus"
+            android:id="@+id/activity_add_screen_workingStatus_radioGroup"
             android:orientation="horizontal">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/calisiyor"
+                android:id="@+id/activity_add_screen_calisiyor_radioButton"
                 android:text="@string/common_working"
                 android:layout_marginRight="20dp">
 
@@ -121,7 +121,7 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/calismiyor"
+                android:id="@+id/activity_add_screen_calismiyor_radioButton"
                 android:text="@string/common_notWorking">
 
             </RadioButton>
@@ -136,7 +136,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/activity_add_screen_button_save"
-        android:id="@+id/addBtn">
+        android:id="@+id/activity_add_screen_addButton">
 
     </Button>
 

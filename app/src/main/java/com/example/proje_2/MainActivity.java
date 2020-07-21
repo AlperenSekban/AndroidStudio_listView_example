@@ -21,6 +21,7 @@ import static com.example.proje_2.R.drawable.ic_action_calismiyor;
 
 public class MainActivity extends AppCompatActivity {
 
+
     ListView listView;
     List<KisiModel> kisiModels;
     PersonListAdapter adp;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intentAdd = new Intent(getApplicationContext(), AddScreen.class);
-                startActivityForResult(intentAdd, 2);
+                startActivityForResult(intentAdd, Utility.requestCode_addScreen);
             }
         });
 
